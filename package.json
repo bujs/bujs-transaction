@@ -1,0 +1,49 @@
+{
+  "name": "bujs-transaction",
+  "version": "1.0.0",
+  "description": "A transaction module for the BU chain.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bujs/bujs-transaction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bujs/bujs-transaction/issues"
+  },
+  "homepage": "https://github.com/bujs/bujs-transaction#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "bujs-account": "git+https://github.com/bujs/bujs-account.git",
+    "bujs-signer": "git+https://github.com/bujs/bujs-signer.git",
+    "google-protobuf": "^3.10.0-rc.1",
+    "long": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.9.0"
+  },
+  "standard": {
+    "globals": [
+      "test",
+      "expect"
+    ],
+    "ignore": [
+      "/lib/protobuf/"
+    ]
+  }
+}
