@@ -23,6 +23,8 @@
     "test": "test"
   },
   "dependencies": {
+    "ajv": "^6.10.2",
+    "ajv-errors": "^1.0.1",
     "bujs-account": "git+https://github.com/bujs/bujs-account.git",
     "bujs-signer": "git+https://github.com/bujs/bujs-signer.git",
     "google-protobuf": "^3.10.0-rc.1",
